@@ -21,7 +21,6 @@ class SkeletonPlugin(AbsPlugin):
     def dummy(self, args):
         """ Prints a dummy message """
         print("This is the print_handler in the example plugin")
-        print(sys.argv[3])
 
 # Each plugin must provide a load method at module level that will be
 # used to instantiate the plugin
